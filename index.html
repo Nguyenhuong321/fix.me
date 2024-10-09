@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container" style="display: flex;">
+            <div class="header_navbar" style="display: flex;">
+                <div class="header_logo"><img src="./image/logo.png"></div>
+                <div class="header_search">
+                    <div class="header_search-box" style="display: flex;">
+                        <input type="text" class="header_search-input" placeholder="Nhập từ khóa để tìm kiếm sản phẩm">
+                        <button class="header_search-btn" style="height: 47.3px;">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="header_popular-search" style="display: flex;">
+                        <div class="header_popular-search-text"> Tìm kiếm nhiều nhất: </div>
+                        <div class="header_popular-section">
+                            <a class="header_popular-item" style="cursor: pointer;"> Cảm biến áp suất </a>
+                            <a class="header_popular-item" style="cursor: pointer;"> Cảm biến quang </a>
+                            <a class="header_popular-item" style="cursor: pointer;"> Cảm biến tiệm cận</a>
+                            <a class="header_popular-item" style="cursor: pointer;"> Cảm biến cửa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_infomation">
+                <div class="header_hotline">
+                    <text class="header_hotline-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </text>
+                    <div class="header_hotline-text"> Hotline: 1900 6536</div>
+                </div>
+                <div class="header_system-branch">
+                    <text class="header_system-branch-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </text>
+                    <div class="header_system-branch-text"> Hệ thống chi nhánh </div>
+                </div>
+            </div>
+            <div class="header_utilities">
+                <button class="header_Notification" style="cursor: pointer;">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <button class="header_cart" style="cursor: pointer;">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button class="header_user" style="cursor: pointer;">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+            </div>
+        </div>
+        <hr>
+        <div class="header_quick-form">
+            <div class="header_toolbox" style="display: flex;cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/dathangnhanh.png"></div>
+                <div class="header_toolbox-text"> Đặt hàng nhanh </div>
+            </div>
+            <div class="header_toolbox" style="display: flex; cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/laybaogia.png"></div>
+                <div class="header_toolbox-text"> Lấy báo giá </div>
+            </div>
+            <div class="header_toolbox" style="display: flex;cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/order.png"></div>
+                <div class="header_toolbox-text"> Tracking Order </div>
+            </div>
+            <div class="header_toolbox" style="display: flex;cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/baohanh.png"></div>
+                <div class="header_toolbox-text"> Check bảo hành </div>
+            </div>
+            <div class="header_toolbox" style="display: flex;cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/tailieukythuat.png"></div>
+                <div class="header_toolbox-text"> Tài liệu kỹ thuật </div>
+            </div>
+            <div class="header_toolbox" style="display: flex;cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/product.png"></div>
+                <div class="header_toolbox-text"> Product Selector </div>
+            </div>
+            <div class="header_toolbox" style="display: flex;cursor: pointer;">
+                <div class="header_toolbox-item"><img src="./image/tintuc.png"></div>
+                <div class="header_toolbox-text"> Tin tức </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">    
+        <div class="main_product-category" style="display: flex;">
+            <div style="display: flex; margin-top: 20px; background-color: #ffffff; gap: 4px;" >
+                <div class="main_category-section">
+                    <div class="main_category-header" style="display: flex;">
+                        <div class="main_category-icon"><img src="./image/danhmuc.png"></div>
+                        <p class="main_category-text"> Danh mục sản phẩm </p>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a> Cảm biến </a></li>
+                            <li><a> Còi báo </a></li>
+                            <li><a> Chuyển mạch/ Nút nhấn </a></li>
+                            <li><a> Đèn báo </a></li>
+                            <li><a> Công tác hành trình - Safety </a></li>
+                            <li><a> Bộ bảo vệ pha/ Động cơ </a></li>
+                            <li><a> Thiết bị đóng cắt </a></li>
+                            <li><a> Bộ đổi nguồn DC </a></li>
+                            <li><a> Biến áp  </a></li>
+                            <li><a> Biến tần </a></li>
+                            <li><a> Driver/ Motor Servo </a></li>
+                            <li><a> Cảm biến </a></li>
+                            <li><a> Còi báo </a></li>
+                            <li><a> Chuyển mạch/ Nút nhấn </a></li>
+                            <li><a> Đèn báo </a></li>
+                            <li><a> Công tác hành trình - Safety </a></li>
+                            <li><a> Bộ bảo vệ pha/ Động cơ </a></li>
+                            <li><a> Thiết bị đóng cắt </a></li>
+                            <li><a> Bộ đổi nguồn DC </a></li>
+                            <li><a> Biến áp  </a></li>
+                            <li><a> Biến tần </a></li>
+                            <li><a> Driver/ Motor Servo </a></li>
+                        </ul>
+                    </nav>
+                    <div class="main_orther-category" style="cursor: pointer;"> Danh mục khác</div>
+                </div>
+                <div class="main_promotion">
+                    <div class="slider">
+                        <div><img src="./image/hoplong14years.png" alt="Promotion 1"></div>
+                        <div><img src="./image/hoplong14years.png" alt="Promotion 2"></div>
+                        <div><img src="./image/hoplong14years.png" alt="Promotion 3"></div>
+                    </div>
+                    <div class="dots">
+                        <span class="dot"></span>
+                        <span class="dot" style="left: 20px;"></span>
+                        <span class="dot" style="left: 40px;"></span>
+                    </div> 
+                </div>  
+               
+               
+                <div class="main_demo"><img src="./image/demosp.png"></div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+        <div class="main_product" style="display: flex;">
+            <div class="main_product-form-section" style="display: flex; gap: 56px;">
+                <form class="main_product-form" style="display: flex;cursor: pointer;">
+                    <span class="main_product-image"><img src="./image/caodaotudongdangcai.png"></span>
+                    <span class="main_product-title"> Cầu dao tự động dạng cài</span>
+                </form>
+                <form class="main_product-form" style="display: flex;cursor: pointer;">
+                    <span class="main_product-image"><img src="./image/thietbicontactor.png"></span>
+                    <span class="main_product-title"> Thiết bị Contactor </span>
+                </form>
+                <form class="main_product-form" style="display: flex;cursor: pointer;">
+                    <span class="main_product-image"><img src="./image/thietbibientan.png"></span>
+                    <span class="main_product-title"> Thiết bị biến tần </span>
+                </form>
+                <form class="main_product-form" style="display: flex;cursor: pointer;">
+                    <span class="main_product-image"><img src="./image/congtacthongminh.png"></span>
+                    <span class="main_product-title"> Công tắc, ổ cắm thông minh </span>
+                </form>
+                <form class="main_product-form" style="display: flex;cursor: pointer;">
+                    <span class="main_product-image"><img src="./image/nutnhanthongminh.png"></span>
+                    <span class="main_product-title"> Nút nhấn thông minh </span>
+                </form>
+            </div>
+        </div> 
+        <div class="main_flash-sale">
+            <div class="container" style=" background: #006DF0; border-radius: 5px 5px 5px 5px;">
+                <div class="main_flash-sale-header" style="display: flex; justify-items: center; align-items: center;">
+                    <div class="main_logo-flash-sale"><img src="./image/logosale.png"></div>
+                    <input type="button" class="main_button-product" value="Xem tất cả">
+                </div>
+                <div class="main_form-sale">
+                    <div class="main_product-flash-sale" style="display: flex;">
+                        <div class="main_sale-item">
+                            <div class="main_sale-image"><img src="./image/caudaotudong.png"></div>
+                            <div class="main_sale-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                            <div class="main_price" style="margin: 20px;">
+                                <div class="main_N3M2-price"> 18.187.450 đ </div>
+                                <span class="main_N3M2-original-price"> 20.187.450 đ</span>
+                                <span class="main_sold-quantity"> Đã bán: 50 </span>
+                            </div>
+                        </div>
+                        <div class="main_sale-item">
+                            <div class="main_sale-image"><img src="./image/caudaotudong.png"></div>
+                            <div class="main_sale-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                            <div class="main_price" style="margin: 20px;">
+                                <div class="main_N3M2-price"> 18.187.450 đ </div>
+                                <span class="main_N3M2-original-price"> 20.187.450 đ</span>
+                                <span class="main_sold-quantity"> Đã bán: 50 </span>
+                            </div>
+                        </div>
+                        <div class="main_sale-item">
+                            <div class="main_sale-image"><img src="./image/caudaotudong.png"></div>
+                            <div class="main_sale-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                            <div class="main_price" style="margin: 20px;">
+                                <div class="main_N3M2-price"> 18.187.450 đ </div>
+                                <span class="main_N3M2-original-price"> 20.187.450 đ</span>
+                                <span class="main_sold-quantity"> Đã bán: 50 </span>
+                            </div>
+                        </div>
+                        <div class="main_sale-item">
+                            <div class="main_sale-image"><img src="./image/caudaotudong.png"></div>
+                            <div class="main_sale-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                            <div class="main_price" style="margin: 20px;">
+                                <div class="main_N3M2-price"> 18.187.450 đ </div>
+                                <span class="main_N3M2-original-price"> 20.187.450 đ</span>
+                                <span class="main_sold-quantity"> Đã bán: 50 </span>
+                            </div>
+                        </div>
+                        <div class="main_sale-item">
+                            <div class="main_sale-image"><img src="./image/caudaotudong.png"></div>
+                            <div class="main_sale-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                            <div class="main_price" style="margin: 20px;">
+                                <div class="main_N3M2-price"> 18.187.450 đ </div>
+                                <span class="main_N3M2-original-price"> 20.187.450 đ</span>
+                                <span class="main_sold-quantity"> Đã bán: 50 </span>
+                            </div>
+                        </div>
+                        <div class="main_sale-item">
+                            <div class="main_sale-image"><img src="./image/caudaotudong.png"></div>
+                            <div class="main_sale-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                            <div class="main_price" style="margin: 20px;">
+                                <div class="main_N3M2-price"> 18.187.450 đ </div>
+                                <span class="main_N3M2-original-price"> 20.187.450 đ</span>
+                                <span class="main_sold-quantity"> Đã bán: 50 </span>
+                            </div>
+                        </div>
+                        <a class="main_flash-sale-prev" >&#10094;</a>
+                        <a class="main_flash-sale-next">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_hero" style="display: flex;">
+            <div class="container" style="display: flex; gap: 10px;">
+                <div class="main_hero-item"><img src="./image/G120XA.png"></div>
+                <div class="main_hero-item"><img src="./image/thietbidiendandung.png"></div>
+                <div class="main_hero-item"><img src="./image/DELTAME300.png"></div>
+            </div>
+        </div>
+        <div class="main_smart-switching-equipment" style="display: flex; justify-content: center;">
+            <div class="main_form-product" style="display: flex; ">
+                <div class="main_smart-device">
+                    <div class="main_smart-device-image"><img src="./image/thietbidongcatthongminh.png"></div>
+                    <div class="main_smart-device-title"> Thiết bị đóng cắt thông minh </div>
+                    <input type="button" class="main_button" value="Xem thêm ">
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/caudaotudong.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/caudaotudong.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/caudaotudong.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/caudaotudong.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/caudaotudong.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_hero" style="display: flex;">
+            <div class="container" style="display: flex; gap: 10px;">
+                <div class="main_hero-item"><img src="./image/G120XA.png"></div>
+                <div class="main_hero-item"><img src="./image/thietbidiendandung.png"></div>
+                <div class="main_hero-item"><img src="./image/DELTAME300.png"></div>
+            </div>
+
+        </div>
+        <div class="main_smart-switching-equipment" style="display: flex; justify-content: center;">
+            <div class="main_form-product" style="display: flex; ">
+                <div class="main_smart-device">
+                    <div class="main_smart-device-image"><img src="./image/contactor.png"></div>
+                    <div class="main_smart-device-title"> Thiết bị Contactor </div>
+                    <input type="button" class="main_button" value="Xem thêm ">
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi1.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi1.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi1.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi1.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi1.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_N3M2-purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_smart-switching-equipment" style="display: flex;justify-content: center;">
+            <div class="main_form-product" style="display: flex;width: 1381.38px;">
+                <div class="main_smart-device">
+                    <div class="main_smart-device-image"><img src="./image/thietbi2.png"></div>
+                    <div class="main_smart-device-title"> Phích cắm công nghiệp </div>
+                    <input type="button" class="main_button" value="Xem thêm ">
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi3.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi3.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi3.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi3.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thietbi3.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_smart-switching-equipment" style="display: flex; justify-content: center;">
+            <div class="main_form-product" style="display: flex; ">
+                <div class="main_smart-device">
+                    <div class="main_smart-device-image"><img src="./image/thietbi4.png"></div>
+                    <div class="main_smart-device-title"> Cảm biến thông minh </div>
+                    <input type="button" class="main_button" value="Xem thêm ">
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thieybi5.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thieybi5.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thieybi5.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thieybi5.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_N3M2">
+                    <div class="main_N3M2-image"><img src="./image/thieybi5.png"></div>
+                    <div class="main_N3M2-title"> Cầu dao tự động dạng cài SIEMENS NS080N3M2 </div>
+                    <div class="main_N3M2-specifications">
+                        <ul>
+                            <li>Số cực: 2P</li>
+                            <li> Dòng định mức (ln): 1A</li>
+                            <li>DÒng ngắn mạch (icu): 10kA</li>
+                            <li>Điện áp định mức (Un): 400VAC</li>
+                        </ul>
+                    </div>
+                    <div class="main_price" style="margin: 20px;">
+                        <div class="main_N3M2-price"> 18.187.450 đ</div>
+                        <div class="main_N3M2-original-price"> 20.187.450 đ</div>
+                        <div class="main_N3M2-rate">
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star"><img src="./image/star.png"></span>
+                            <span class="main_star1"><img src="./image/Star1.png"></span>
+                            <span class="main_purchase-count"> 227 </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_distributor">
+            <div class="main_distributor-form" style="display: flex; justify-content: center;">
+                <div class="main_distributor-backgroud"><img src="./image/nenphanphoi.png">
+                    <div class="main_distributor-representative"><img src="./image/nguoidaidien.png"></div>
+                    <div class="main_distributor-text">
+                        <h1 id="distributor" style="font-family:'Roboto';"> Nhà phân phối chính hãng </h1>
+                        <p id="introduce"> Hợp Long là nhà cung cấp thiết bị, giải pháp tự động hóa và tích hợp robot công nghiệp hàng đầu tại Việt Nam. Chúng tôi có hơn 200.000 san rphaamr được chỉ định là nhà phân phối của các thương hiệu: Schineider, Autonics, Omron, Hanyoung, Patlite, LS, Delta, Siemens, Idec,... </p>
+                        <input type="button" id="btn-distributor" value="Tìm hiểu thêm" style="cursor: pointer;">
+                    </div>
+                    <div class="main_quote-form">
+                        <div class="main_quote-form-header">
+                            <div class="main_quote-form-text"> Yêu cầu gửi báo giá</div>
+                            <div class="main_form-text"> Chúng tôi sẽ liên hệ với bạn sớm nhất, Xin cảm ơn</div>
+                        </div>
+                        <div class="main_quote-form-body">
+                            <input type="text" placeholder="Số điện thoại" class="main_quote-form-body-text">
+                            <input type="text" placeholder="Email" class="main_quote-form-body-text">
+                            <input type="text" placeholder="Tên, mã sản phẩm" id="text-product">
+                            <input type="text" placeholder="Số lượng" id="text-quantity">
+                            <form id="add-product">
+                                <label style="cursor: pointer;"> Thêm sản phẩm </label>
+                                <label style="cursor: pointer; font-weight: 400; color: black;"> + </label>
+                            </form>
+                            <form class="main_file-prroduct" style="display: flex;">
+                                <input type="button" id="btn-image" value="Chọn tệp" style="cursor: pointer;"></input>
+                                <div class="main_file-prroduct-text"> Nhập mã hàng từ file. csv </div>                            </form>
+                        </div>
+                        <input type="button" id="btn-send" value="Gửi yêu cầu">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_genuine-accessories">
+            <div class="container">
+                <div class="main_genuine-accessories-header" style="display: flex;">
+                    <div class="main_genuine-accessories-text"> PHỤ KIỆN CHÍNH HÃNG THEO NGHỀ </div>
+                    <div class="main_accessories-button" style="display: flex; margin-left: auto; gap: 10px; align-items: center;">
+                        <a class="main_accessories-button-item" style="background-color:  #3C82EA; color: #ffffff;"> Phụ kiện tủ điện </a>
+                        <a class="main_accessories-button-item"> Phụ kiện nhà máy </a>
+                        <a class="main_accessories-button-item"> Phụ kiện robot </a>
+                        <a class="main_accessories-button-item"> Phụ kiện đo lường </a>
+                    </div>
+                </div>
+                <div class="main_genuine-accessories-section">
+                    <div class="main_electrical-accessories" style="display: flex; gap: 15px; flex-wrap: wrap;">
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/vocauchi&ruotcauchi.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Vỏ cầu chì & Ruột cầu chì </a>
+                                <div class="main_accessories-introduce"> Cầu chì (Fuse) còn gọi là cầu chảy, mắc nối tiếp </div>
+                            </div>
+
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/dientrosaytudien.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Điện trở sấy tủ điện </a>
+                                <div class="main_accessories-introduce"> Điện trở sấy nằm trong máy điện sấy và sử dụng  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/caudaukhoi.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Cầu đấu khối </a>
+                                <div class="main_accessories-introduce"> Cầu đấu khối tập hợp các cầu đấu tạo thành  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/dientrosaytudien.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Điện trở sấy tủ điện </a>
+                                <div class="main_accessories-introduce"> Điện trở sấy nằm trong máy điện sấy và sử dụng  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/caudaukhoi.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Cầu đấu khối </a>
+                                <div class="main_accessories-introduce"> Cầu đấu khối tập hợp các cầu đấu tạo thành  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/vocauchi&ruotcauchi.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Vỏ cầu chì & Ruột cầu chì </a>
+                                <div class="main_accessories-introduce"> Cầu chì (Fuse) còn gọi là cầu chảy, mắc nối tiếp          </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/dientrosaytudien.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Điện trở sấy tủ điện </a>
+                                <div class="main_accessories-introduce"> Điện trở sấy nằm trong máy điện sấy và sử dụng  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/caudaukhoi.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Cầu đấu khối </a>
+                                <div class="main_accessories-introduce"> Cầu đấu khối tập hợp các cầu đấu tạo thành  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/dientrosaytudien.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Điện trở sấy tủ điện </a>
+                                <div class="main_accessories-introduce"> Điện trở sấy nằm trong máy điện sấy và sử dụng  </div>
+                            </div>
+                        </div>
+                        <div class="main_accessories-item" style="display: flex;">
+                            <div class="main_accessories-image"><img src="./image/caudaukhoi.png"></div>
+                            <div class="main_accessories-text">
+                                <a class="main_accessories-name"> Cầu đấu khối </a>
+                                <div class="main_accessories-introduce"> Cầu đấu khối tập hợp các cầu đấu tạo thành  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_genuine-accessories-button" style="display: flex;justify-content: center;">
+                    <input type="button" class="main_button" value="Xem thêm" style=" width: 229px; height: 50px;font-size: 21px;cursor: pointer;">
+                </div>
+            </div>
+        </div>
+        <div class="main_news-events">
+            <div class="container" style=" background-color: #ffffff;">
+                <div class="main_news-events-header" style="display: flex;">
+                    <div class="main_news-events-text"> TIN TỨC & SỰ KIỆN </div>
+                    <div class="main_news-events-button">
+                        <a class="main_news-button-item" style="background-color: #3C82EA;color: #ffffff;"> Hoạt động công ty</a>
+                        <a class="main_news-button-item"> Tin tức tự động hóa</a>
+                        <a class="main_news-button-item"> Khuyến mãi</a>
+                        <a class="main_news-button-item"> Sự kiện & hoạt động </a>
+                    </div>
+                </div>
+                <div class="main_Outstanding-events" style="display: flex; gap: 10px; position: relative;">
+                    <div class="main_events-item">
+                        <div class="main_events-image"><img src="./image/nhaphanphoichinh.png"></div>
+                        <a class="main_events-button">Tin hoạt động công ty</a>
+                        <a class="main_events-name"> Hợp Long trở thành nhà phân phối chính thức của thương hiệu nhà thông minh Aqara </a>
+                        <div class="main_events-introduce"> Hợp Long chính thức trở thành nhà phân phối chính thức thương hiệu Aqara, giải pháp nhà thông minh chất lượng và đáng tin cậy. Hợp tá...</div>
+                    </div>
+                    <div class="main_events-item">
+                        <div class="main_events-image"><img src="./image/chuongtrinhkhuyenmai.png"></div>
+                        <a class="main_events-button">Tin hoạt động công ty</a>
+                        <a class="main_events-name"> Hợp Long trở thành nhà phân phối chính thức của thương hiệu nhà thông minh Aqara </a>
+                        <div class="main_events-introduce"> Hợp Long chính thức trở thành nhà phân phối chính thức thương hiệu Aqara, giải pháp nhà thông minh chất lượng và đáng tin cậy. Hợp tá...</div>
+                    </div>
+                    <div class="main_events-item">
+                        <div class="main_events-image"><img src="./image/thuonghieuaqara.png"></div>
+                        <a class="main_events-button">Tin hoạt động công ty</a>
+                        <a class="main_events-name"> Hợp Long trở thành nhà phân phối chính thức của thương hiệu nhà thông minh Aqara </a>
+                        <div class="main_events-introduce"> Hợp Long chính thức trở thành nhà phân phối chính thức thương hiệu Aqara, giải pháp nhà thông minh chất lượng và đáng tin cậy. Hợp tá...</div>
+                    </div>
+                    <div class="main_events-item">
+                        <div class="main_events-image"><img src="./image/chuongtrinhkhuyenmai.png"></div>
+                        <a class="main_events-button">Tin hoạt động công ty</a>
+                        <a class="main_events-name"> Hợp Long trở thành nhà phân phối chính thức của thương hiệu nhà thông minh Aqara </a>
+                        <div class="main_events-introduce"> Hợp Long chính thức trở thành nhà phân phối chính thức thương hiệu Aqara, giải pháp nhà thông minh chất lượng và đáng tin cậy. Hợp tá...</div>
+                    </div>
+                    <a class="main_events-prev">&#10094;</a>
+                    <a class="main_events-next">&#10095;</a>
+                </div>
+                <div class="main_news-button" style="display: flex; justify-content: center;">
+                    <input type="button" class="main_button" value="Xem thêm" style="width: 264px;height: 46px;" >
+                </div>
+            </div>
+        </div>
+        <div class="main_partner">
+            <div class="container" style="background-color: #456ee7;">
+                <div class="main_partner-header" style="display: flex;">
+                    <h1 class="main_partner-text"> Đối tác của chúng tôi </h1>
+                    <div class="main_accessories-button" style="display: flex; margin-left: auto; gap: 10px; align-items: center;">
+                        <input type="button" class="main_button-product" value="Xem tất cả" style="cursor: pointer;">
+                    </div>
+                </div>
+                <div class="main_partner-form" style="display: flex; position: relative; background-color: white; width: 100%; height: 100px; margin: 0 auto;">
+                    <div class="main_partner-section" style="display: flex; align-items: center; margin: 0 auto;width: 95%;" >
+                        <div class="main_partner-item"> <img src="./image/Feconlogo.png"></div>
+                        <div class="main_partner-item"><img src="./image/Siemenslogo.png"></div>
+                        <div class="main_partner-item"><img src="./image/OMRONlogo.png"></div>
+                        <div class="main_partner-item"> <img src="./image/Feconlogo.png"></div>
+                        <div class="main_partner-item"><img src="./image/Siemenslogo.png"></div>
+                        <div class="main_partner-item"><img src="./image/OMRONlogo.png"></div>
+                        <div class="main_partner-item"> <img src="./image/Feconlogo.png"></div>
+                        <div class="main_partner-item"><img src="./image/OMRONlogo.png"></div>
+                        <div class="main_partner-item"><img src="./image/OMRONlogo.png"></div>
+                    </div>
+                    <a class="main_partner-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="main_partner-next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div style="display: flex; margin-top: 20px; background-color: #ffffff;">
+                <div class="footer_logo-image" style="cursor: pointer;"><img src="./image/logo.png"></div>
+            </div>
+            <div class="footer_icon" style="display: flex;margin-top: 10px; gap: 20px;">
+                <div class="footer_icon-zalo" style="cursor: pointer;"><img src="./image/iconzalo.png"></div>
+                <button class="footer_icon-item" style="background-color: #597eeb;" >
+                    <i class="fa-brands fa-facebook-messenger" style="color:#ffffff;"></i>
+                </button>
+                <button class="footer_icon-item" style="background-color: #d43021;">
+                    <i class="fa-brands fa-youtube" style="color:#ffffff;"></i>
+                </button>
+                <button class="footer_icon-item" style="background-color: #000000;">
+                    <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i>
+                </button>
+                <button class="footer_icon-item">
+                    <i class="fa-solid fa-flag"></i>
+                </button>
+            </div>
+            <div class="footer_information" style="display: flex; margin-top: 10px; gap: 50px;">
+                <div class="footer_button" style="display: flex; gap: 50px;">
+                    <a class="footer_button-item" style="background-color: #e1ecfd; color: #456ee7;"> Giới thiệu </a>
+                    <a class="footer_button-item"> Lịch sử phát triển </a>
+                    <a class="footer_button-item"> Tin tức </a>
+                    <a class="footer_button-item"> Liên hệ  </a>
+                    <a class="footer_button-item"> Tuyển dụng </a>
+                </div>
+                <div class="footer_contact" style="display: flex; gap: 20px;">
+                    <div class="footer_phone" style="display: flex; gap: 10px;">
+                        <text class="footer-phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </text>
+                        <div class="footer-phone-text">1900 6536</div>
+                    </div>
+                    <div class="footer_mail" style="display: flex; gap: 10px;">
+                        <div class="footer_mail-image"><img src="./image/at.png"></div>
+                        <div class="footer_mail-text"> info@hoplong.com </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_branch" style="margin-top: 20px;">
+                <div class="footer_branch-text"> Hệ thống chi nhánh </div>
+                <div class="footer_branch-section" style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
+                    <div class="footer_branch-item">
+                        <div class="footer_branch-name"> Trụ sở chính </div>
+                        <div class="footer_branch-place"> Tòa HH01 New Horizon, 87 Lĩnh Nam, Hoàng Mai, Hà Nội</div>
+                        <div class="footer_branch-hotline"> 1900 6536 - 1800 6345 </div>
+                        <a class="footer_branch-map"> Xem bản đồ </a>
+                    </div>
+                    <div class="footer_branch-item">
+                        <div class="footer_branch-name"> Chi nhánh Bắc Ninh </div>
+                        <div class="footer_branch-place"> 27 Vũ Giới, Phường Suối Hoa, TP Bắc Ninh </div>
+                        <div class="footer_branch-hotline"> 1900 6536 - 1800 6345 </div>
+                        <a class="footer_branch-map"> Xem bản đồ </a>
+                    </div>
+                    <div class="footer_branch-item">
+                        <div class="footer_branch-name"> Chi nhánh Hồ Chí Minh </div>
+                        <div class="footer_branch-place"> 55 Minh Phụng, Tân Thới Nhất, Quận 12 </div>
+                        <div class="footer_branch-hotline"> 1900 6536 - 1800 6345 </div>
+                        <a class="footer_branch-map"> Xem bản đồ </a>
+                    </div>
+
+                    <div class="footer_branch-item">
+                        <div class="footer_branch-name"> Chi nhánh Hải Phòng </div>
+                        <div class="footer_branch-place"> Số 23 BS1, Khu đô thị PG, An Đồng, An Dương </div>
+                        <div class="footer_branch-hotline"> 1900 6536 - 1800 6345 </div>
+                        <a class="footer_branch-map"> Xem bản đồ </a>
+                    </div>
+                    <div class="footer_branch-item">
+                        <div class="footer_branch-name"> Chi nhánh Đà Nẵng </div>
+                        <div class="footer_branch-place"> 35 Chu Mạnh Trinh, Cẩm Lệ </div>
+                        <div class="footer_branch-hotline"> 1900 6536 - 1800 6345 </div>
+                        <a class="footer_branch-map"> Xem bản đồ </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_customer-care" style="margin-top: 20px;">
+                <div class="footer_customer-care-text"> Chăm sóc khách hàng </div>
+                <div class="footer_customer-care-button" style="display: flex; gap: 20px; margin-top: 10px;">
+                    <a class="footer_button-item" style="background-color: #e1ecfd; color: #456ee7;"> Đổi điểm thưởng </a>
+                    <a class="footer_button-item"> Dành cho đại lý </a>
+                    <a class="footer_button-item"> Hướng dẫn mua hàng </a>
+                    <a class="footer_button-item"> Hình thức thanh toán
+                </div>
+            </div>
+            <div class="footer_policy" style="margin-top: 20px;">
+                <div class="footer_policy-text"> Quy định & Chính sách </div>
+                <div class="footer_policy-section" style="display: flex; gap: 20px;">
+                    <div class="footer_policy-item">
+                        <text class="footer_policy-icon">
+                            <i class="fa-solid fa-shield-halved" style="color: #006df0;"></i>
+                        </text>
+                        <div class="footer_policy-name"> Chính sách bảo mật </div>
+                    </div>
+                    <div class="footer_policy-item">
+                        <test class="footer_policy-icon">
+                            <i class="fa-solid fa-calendar-check" style="color: #006df0;"></i>
+                        </test>
+                        <div class="footer_policy-name"> Chính sách bảo hành </div>
+                    </div>
+                    <div class="footer_policy-item">
+                        <text class="footer_policy-icon">
+                            <i class="fa-solid fa-truck-fast" style="color: #006df0;"></i>
+                        </text>
+                        <div class="footer_policy-name"> Chính sách vận chuyển </div>
+                    </div>
+                    <div class="footer_policy-item">
+                        <text class="footer_policy-icon">
+                            <i class="fa-solid fa-arrows-rotate" style="color: #006df0;"></i>
+                        </text>
+                        <div class="footer_policy-name"> Chính sách đổi trả </div>
+                    </div>
+                    <div id="bocongthuong"><img src="./image/bocongthuong.png"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_legal-information" style="display: flex; justify-content: center;">
+                <p style="font-family: 'Roboto';font-size: 10px;">
+                    Copyright © 2020  hoplongtech.com All rights reserved. Mã số thuế: 0104509916 do Sở Kế Hoạch & Đầu Tư Hà Nội cấp lần đầu ngày 14/10/2010. Trụ sở chính: 87 Lĩnh Nam - Hoàng Mai - Hà Nội.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
